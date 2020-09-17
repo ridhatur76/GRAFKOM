@@ -21,17 +21,17 @@ fill(235,186,84);
   noStroke();
   smooth();
   beginShape();
-  vertex(115,700);
-  vertex(190,700);
-  vertex(160,450);
-  vertex(140,450);
+  vertex(115,500);
+  vertex(190,500);
+  vertex(160,250);
+  vertex(140,250);
   endShape();
   fill(71,162,26);
-  ellipse(100,400,150,150);
-  ellipse(100,450,40,100);
-  ellipse(170,450,150,150);
-  ellipse(160,340,50,60);
-  ellipse(160,400,40,150);
+  ellipse(100,200,150,150);
+  ellipse(100,250,40,100);
+  ellipse(170,250,150,150);
+  ellipse(160,140,50,60);
+  ellipse(160,200,40,150);
   endShape();
   stroke(0);
   
@@ -63,7 +63,7 @@ fill(235,186,84);
   beginShape();
   float xoff = 0;
   for (float x=0; x<= width; x += 10) {
-    float y = map(noise(xoff, yoff), 0, 1, 460, 410);
+    float y = map(noise(xoff, yoff), 0, 1, 480, 430);
     vertex(x, y);
     xoff += 0.05;
   }
@@ -72,7 +72,7 @@ fill(235,186,84);
   vertex(0, height);
   endShape(CLOSE);
   
-    //awan1
+//awan1
 strokeWeight(0);
 fill(#F2F2F2);
 ellipse(50+15*d, 180, 50, 35);
