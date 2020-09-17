@@ -68,4 +68,21 @@ fill(235,186,84);
   ellipse(400,470,260,100);
   ellipse(420,500,340,100);
   ellipse(420,460,300,100);
+  
+    //gelombang
+  strokeWeight(1);
+  fill(3,160,255);
+  beginShape();
+  fill(3,160,255);
+  beginShape();
+  float xoff = 0;
+  for (float x=0; x<= width; x += 10) {
+    float y = map(noise(xoff, yoff), 0, 1, 460, 410);
+    vertex(x, y);
+    xoff += 0.05;
+  }
+  yoff += 0.01;
+  vertex(width, height);
+  vertex(0, height);
+  endShape(CLOSE);
 }
