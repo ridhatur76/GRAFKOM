@@ -13,21 +13,7 @@ void draw (){
   fill(#906617);
   rect(0,385,800,185);
   
-  //awan1
-strokeWeight(0);
-fill(#F2F2F2);
-ellipse(50+15*d, 180, 50, 35);
-ellipse(80+15*d, 180, 50,50);
-ellipse(105+15*d, 180, 25, 25);
-ellipse(25+15*d, 180, 25, 25);
 
-//awan2
-strokeWeight(0);
-fill(#F2F2F2);
-ellipse(45+5*d, 130, 80, 80);
-ellipse(85+5*d, 130, 80,80);
-ellipse(125+5*d, 130, 55, 55);
-ellipse(5+5*d, 130, 55, 55);
 
 
 //pohon
@@ -85,4 +71,20 @@ fill(235,186,84);
   vertex(width, height);
   vertex(0, height);
   endShape(CLOSE);
+  
+    //awan1
+strokeWeight(0);
+fill(#F2F2F2);
+ellipse(50+15*d, 180, 50, 35);
+ellipse(80+15*d, 180, 50,50);
+ellipse(105+15*d, 180, 25, 25);
+ellipse(25+15*d, 180, 25, 25);
+
+//awan2
+strokeWeight(0);
+fill(#F2F2F2);
+ellipse(45+5*d, 130, 80, 80);
+ellipse(85+5*d, 130, 80,80);
+ellipse(125+5*d, 130, 55, 55);
+ellipse(5+5*d, 130, 55, 55);
 }
