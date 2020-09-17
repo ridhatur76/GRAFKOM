@@ -1,21 +1,25 @@
+float yoff= 0.0;
+
 void setup()
 {
 size(800,550);
 
 }
 
-void draw ()
-{
+void draw (){
+  int d= second();
    background(25,25,112);
   strokeWeight(0);
   fill(#906617);
   rect(0,385,800,185);
-  //awan
-noStroke();
+  
+  //awan1
+strokeWeight(0);
 fill(#F2F2F2);
-ellipse(100,140,50,35);
-ellipse(130,140,65,55);
-ellipse(175,140,50,35);
+ellipse(50+15*d, 180, 50, 35);
+ellipse(80+15*d, 180, 50,50);
+ellipse(105+15*d, 180, 25, 25);
+ellipse(25+15*d, 180, 25, 25);
 
 fill(#F2F2F2);
 ellipse(630,140,50,30);
